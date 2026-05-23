@@ -2,6 +2,8 @@
   "version": "26.05.3",
   "title": "BitOS 26.05.3",
   "changes": [
+    "Version + Update service — src/lib/updateService.ts fetches version.json from your repo (with cache-busting), compares against installed version (real version on Android via @capacitor/app, /version.txt on web). UpdatePrompt modal appears once per new version (dismissable unless mandatory: true).",
+    "APK download/install — src/lib/apkInstaller.ts streams the APK with progress bar, writes to Cache dir, then triggers Android's installer via @capacitor-community/file-opener. Added REQUEST_INSTALL_PACKAGES, FOREGROUND_SERVICE, WAKE_LOCK permissions.",
     "WhatsNewDialog fetches whatsnew.json and shows after upgrade only (tracked via bitos.lastSeenVersion localStorage key). Shows nothing on fresh installs.",
     "Music engine (Monochrome/SpoFree-style) — HiFi provider (hifiProvider) hitting public TIDAL instances with fallback (hifi.401658.xyz, tidal.qqdl.site, override via localStorage.bitos.hifiInstance). Zustand store with queue, shuffle, repeat (off/all/one), seek, volume, MediaSession API integration → lockscreen / notification controls work natively. Single global <audio> survives navigation.",
     "New bitmusic.exe page with search → enqueue/play → queue list + transports. Home widget wired to same store + links to the page."
