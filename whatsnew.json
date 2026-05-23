@@ -1,10 +1,9 @@
 {
-  "version": "26.05.2",
-  "title": "BitOS 26.05.2",
+  "version": "26.05.3",
+  "title": "BitOS 26.05.3",
   "changes": [
-    "Improved Android responsiveness",
-    "Fixed planner scaling",
-    "Added Firebase habits sync",
-    "Improved sidebar performance"
+    "WhatsNewDialog fetches whatsnew.json and shows after upgrade only (tracked via bitos.lastSeenVersion localStorage key). Shows nothing on fresh installs.",
+    "Music engine (Monochrome/SpoFree-style) — HiFi provider (hifiProvider) hitting public TIDAL instances with fallback (hifi.401658.xyz, tidal.qqdl.site, override via localStorage.bitos.hifiInstance). Zustand store with queue, shuffle, repeat (off/all/one), seek, volume, MediaSession API integration → lockscreen / notification controls work natively. Single global <audio> survives navigation.",
+    "New bitmusic.exe page with search → enqueue/play → queue list + transports. Home widget wired to same store + links to the page."
   ]
 }
