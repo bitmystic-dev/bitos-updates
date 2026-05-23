@@ -1,0 +1,7 @@
+{
+  "latestVersion": "26.05.2",
+  "versionCode": 260502,
+  "apkUrl": "https://github.com/YOUR_USERNAME/bitos-updates/releases/download/v26.05.2/bitos.apk",
+  "whatsNewUrl": "https://raw.githubusercontent.com/YOUR_USERNAME/bitos-updates/main/whatsnew.json",
+  "mandatory": false
+}
