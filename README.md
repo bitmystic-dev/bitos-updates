@@ -1,5 +1,11 @@
 # BitOS is a personal productivity app
-Not looking to launch it to public soon. Will think sometime later and fyi, even if you install the app, you can't register because there's no register page only
+(you can't register new user accounts but you can try using the public test user credentials)
+
+# Public test user credentials
+
+
+  email: user@bitos.dev
+  pass: bitos@2026
 
 # BitOS Updates for Android.
 
