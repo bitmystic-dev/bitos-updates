@@ -1,5 +1,5 @@
 # BitOS is a personal productivity app
-Not looking to launch it to public soon. Will think sometime later
+Not looking to launch it to public soon. Will think sometime later and fyi, even if you install the app, you can't register because there's no register page only
 
 # BitOS Updates for Android.
 
