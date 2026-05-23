@@ -1,7 +1,7 @@
 {
-  "latestVersion": "26.05.3",
-  "versionCode": 260503,
-  "apkUrl": "https://github.com/bitmystic-dev/bitos-updates/releases/download/26.05.03/app-release.apk",
+  "latestVersion": "26.05.04",
+  "versionCode": 260504,
+  "apkUrl": "https://github.com/bitmystic-dev/bitos-updates/releases/download/26.05.04/app-release.apk",
   "whatsNewUrl": "https://raw.githubusercontent.com/bitmystic-dev/bitos-updates/main/whatsnew.json",
-  "mandatory": false
+  "mandatory": true
 }
