@@ -1,0 +1,10 @@
+{
+  "version": "26.05.2",
+  "title": "BitOS 26.05.2",
+  "changes": [
+    "Improved Android responsiveness",
+    "Fixed planner scaling",
+    "Added Firebase habits sync",
+    "Improved sidebar performance"
+  ]
+}
