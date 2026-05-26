@@ -1,6 +1,7 @@
 {
-  "version": "26.05.05",
-  "title": "BitOS 26.05.05",
+  "_comment": "THE CHANGELOGS ARE FOR LATEST 26.05.05 VERSION ONLY, JUST EDIT THE VERSION AND TITLE",
+  "version": "26.05.04",
+  "title": "BitOS 26.05.04",
   "changes": [
     "Removed the BitMusic widget and cleaned up the dashboard.",
     "Added a smoother splash screen with proper app initialization handling.",
