@@ -1,7 +1,15 @@
 {
-  "version": "26.05.3",
-  "title": "BitOS 26.05.3",
+  "version": "26.05.05",
+  "title": "BitOS 26.05.05",
   "changes": [
-    "Habits integration with cloud finally works and can even update it!"
+    "Removed the BitMusic widget and cleaned up the dashboard.",
+    "Added a smoother splash screen with proper app initialization handling.",
+    "Improved sidebar branding, spacing, and collapsed navigation behavior.",
+    "Fixed safe-area support so content no longer overlaps Android system bars.",
+    "Simplified wallpaper rendering for better stability and performance.",
+    "Added 8 new reactive wallpaper patterns including matrix, crt, and waves.",
+    "Introduced customizable section colors across the UI.",
+    "Added a section-colors settings panel with color picker and HEX input support.",
+    "Section color settings now save locally and sync through Firebase."
   ]
 }
