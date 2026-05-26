@@ -1,16 +1,14 @@
 {
-  "_comment": "THE CHANGELOGS ARE FOR LATEST 26.05.05 VERSION ONLY, JUST EDIT THE VERSION AND TITLE",
-  "version": "26.05.04",
-  "title": "BitOS 26.05.04",
+  "version": "26.05.05",
+  "title": "BitOS 26.05.05",
   "changes": [
-    "Removed the BitMusic widget and cleaned up the dashboard.",
-    "Added a smoother splash screen with proper app initialization handling.",
-    "Improved sidebar branding, spacing, and collapsed navigation behavior.",
-    "Fixed safe-area support so content no longer overlaps Android system bars.",
-    "Simplified wallpaper rendering for better stability and performance.",
-    "Added 8 new reactive wallpaper patterns including matrix, crt, and waves.",
-    "Introduced customizable section colors across the UI.",
-    "Added a section-colors settings panel with color picker and HEX input support.",
-    "Section color settings now save locally and sync through Firebase."
+    "Added full account management support in Settings.",
+    "Display name now updates instantly using Firebase updateProfile.",
+    "Email changes now require password reauthentication for improved security.",
+    "Password changes now require reauthentication and automatically sign users out.",
+    "Added secure account deletion with DELETE confirmation and Firestore data cleanup.",
+    "Account flows now use reauthenticateWithCredential to prevent recent-login errors.",
+    "Improved authentication error handling with friendlier user-facing messages.",
+    "Profile picture editing remains intentionally disabled."
   ]
 }
